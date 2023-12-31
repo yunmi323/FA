@@ -24,7 +24,7 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew assembleRelease
 
-    - name: Upload arm64 artifact
+    - name: Upload arm64 artifacts
       id: upload-arm64-apk
       uses: actions/upload-artifact@v3
       with:
